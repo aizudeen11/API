@@ -29,7 +29,7 @@ for it API endpoints:
                   https://www.django-rest-framework.org/api-guide/filtering/
 2. /domain/driver/id - since it require me to return a single driver, I use simple GET request with driver ID
 3. /domain/driver/ - since it require me to create a single driver, I use simple POST request and save it
-POST request input should be like as example as below:
+<br>POST request input should be like as example as below:
     {
         "truck": [
             1
