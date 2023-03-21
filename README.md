@@ -30,13 +30,13 @@ for it API endpoints:
 2. /domain/driver/id - since it require me to return a single driver, I use simple GET request with driver ID
 3. /domain/driver/ - since it require me to create a single driver, I use simple POST request and save it
 <br>POST request input should be like as example as below:
-    {
-        "truck": [
-            1
-        ],
-        "city_district": 1,
-        "name": "aizudeen",
-        "mobile_number": 876,
-        "email": "aizudeen@email.com",
-        "language": "BM"
-    }
+<br>   {
+<br>        "truck": [
+<br>            1
+<br>        ],
+<br>        "city_district": 1,
+<br>        "name": "aizudeen",
+<br>        "mobile_number": 876,
+<br>        "email": "aizudeen@email.com",
+<br>        "language": "BM"
+<br>    }
