@@ -1,4 +1,4 @@
-# API
+
 
 # About
 Library that I use for this API project is 
@@ -29,3 +29,14 @@ for it API endpoints:
                   https://www.django-rest-framework.org/api-guide/filtering/
 2. /domain/driver/id - since it require me to return a single driver, I use simple GET request with driver ID
 3. /domain/driver/ - since it require me to create a single driver, I use simple POST request and save it
+POST request input should be like as example as below:
+    {
+        "truck": [
+            1
+        ],
+        "city_district": 1,
+        "name": "aizudeen",
+        "mobile_number": 876,
+        "email": "aizudeen@email.com",
+        "language": "BM"
+    }
